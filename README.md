@@ -2,6 +2,8 @@
 
 A Windows batch script that cleanly restarts the Oculus/Meta VR runtime service (`OVRService`) and gets your VR software back to a known good state. Originally a one-line troubleshooting step, now a more robust "kick everything VR-related and bring Steam back" tool.
 
+**NOTE:** If you are not familiar with reading and using .BAT or .PS1 files, you should never trust a script someone gives you without evaluation. Running .BATs or .PS1s as Admin are incredibly permissive and can cause damage if malicious. Be careful! 
+
 ## What it does
 
 When run, the script:
